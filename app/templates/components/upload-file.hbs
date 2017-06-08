@@ -1,3 +1,5 @@
 {{yield}}
 
-<input type="submit" value="upload" {{action "upload"}}>
+{{x-file-input name="files" multiple=true alt="Escolha um arquivo" action="uploadAFile"}}
+
+{{fileName}}
